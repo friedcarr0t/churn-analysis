@@ -1,0 +1,401 @@
+user_id;customer_id;email;state;plan;plan_list_price;churn_status;churned;event_count;event_types;count_read_article;count_share_workout;count_track_workout;count_watch_video;ticket_count;total_resolution_hours;avg_resolution_hours;tickets_account;tickets_billing;tickets_other;tickets_technical
+10000;C10000;user10000@example.com;New Jersey;Enterprise;105;Y;1;3.0;read_article, watch_video;2.0;0.0;0.0;1.0;3.0;64.34;21.44666666666667;1.0;1.0;1.0;0.0
+10001;C10001;user10001@example.net;Louisiana;Basic;22;Y;1;1.0;read_article;1.0;0.0;0.0;0.0;4.0;70.17;17.5425;0.0;2.0;1.0;1.0
+10002;C10002;user10002@example.net;Oklahoma;Basic;24;;0;1.0;read_article;1.0;0.0;0.0;0.0;3.0;19.3;6.433333333333334;0.0;0.0;2.0;1.0
+10003;C10003;user10003@example.com;Michigan;Free;0;;0;1.0;track_workout;0.0;0.0;1.0;0.0;1.0;2.19;2.19;0.0;0.0;1.0;0.0
+10004;C10004;user10004@example.com;Texas;Enterprise;119;;0;4.0;track_workout, watch_video;0.0;0.0;1.0;3.0;4.0;34.17;8.5425;0.0;2.0;0.0;2.0
+10005;C10005;user10005@example.org;Ohio;Enterprise;114;;0;1.0;watch_video;0.0;0.0;0.0;1.0;2.0;15.629999999999999;7.8149999999999995;0.0;1.0;0.0;1.0
+10006;C10006;user10006@example.com;Kentucky;Basic;19;;0;0.0;;0.0;0.0;0.0;0.0;2.0;13.719999999999999;6.859999999999999;0.0;1.0;0.0;1.0
+10007;C10007;user10007@example.com;North Carolina;Basic;10;Y;1;0.0;;0.0;0.0;0.0;0.0;3.0;75.5;25.166666666666668;0.0;1.0;1.0;1.0
+10008;C10008;user10008@example.net;Alaska;Enterprise;87;;0;2.0;share_workout, track_workout;0.0;1.0;1.0;0.0;1.0;4.58;4.58;1.0;0.0;0.0;0.0
+10009;C10009;user10009@example.com;Virginia;Free;0;;0;4.0;share_workout, track_workout, watch_video;0.0;2.0;1.0;1.0;3.0;24.82;8.273333333333333;0.0;0.0;3.0;0.0
+10010;C10010;user10010@example.net;Kansas;Pro;51;;0;0.0;;0.0;0.0;0.0;0.0;3.0;11.57;3.856666666666667;1.0;0.0;1.0;1.0
+10011;C10011;user10011@example.net;Arizona;Pro;57;;0;1.0;read_article;1.0;0.0;0.0;0.0;2.0;17.63;8.815;0.0;0.0;2.0;0.0
+10012;C10012;user10012@example.net;Idaho;Enterprise;93;;0;2.0;share_workout, watch_video;0.0;1.0;0.0;1.0;2.0;7.05;3.525;0.0;1.0;0.0;1.0
+10013;C10013;user10013@example.com;Alaska;Enterprise;104;;0;1.0;share_workout;0.0;1.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+10014;C10014;user10014@example.com;Connecticut;Free;0;Y;1;0.0;;0.0;0.0;0.0;0.0;3.0;72.59;24.19666666666667;1.0;2.0;0.0;0.0
+10015;C10015;user10015@example.com;Kansas;Enterprise;110;;0;0.0;;0.0;0.0;0.0;0.0;2.0;14.31;7.155;0.0;0.0;1.0;1.0
+10016;C10016;user10016@example.net;Colorado;Enterprise;138;;0;1.0;watch_video;0.0;0.0;0.0;1.0;2.0;12.46;6.23;0.0;0.0;1.0;1.0
+10017;C10017;user10017@example.org;Rhode Island;Basic;24;;0;0.0;;0.0;0.0;0.0;0.0;1.0;7.19;7.19;0.0;1.0;0.0;0.0
+10018;C10018;user10018@example.org;Idaho;Pro;57;;0;0.0;;0.0;0.0;0.0;0.0;5.0;40.71;8.142;0.0;2.0;2.0;1.0
+10019;C10019;user10019@example.org;Maine;Enterprise;100;;0;2.0;track_workout, watch_video;0.0;0.0;1.0;1.0;1.0;6.29;6.29;0.0;0.0;1.0;0.0
+10020;C10020;user10020@example.org;Wisconsin;Basic;16;;0;2.0;read_article;2.0;0.0;0.0;0.0;1.0;7.32;7.32;0.0;0.0;0.0;1.0
+10021;C10021;user10021@example.org;Vermont;Pro;64;Y;1;0.0;;0.0;0.0;0.0;0.0;3.0;52.400000000000006;17.46666666666667;0.0;3.0;0.0;0.0
+10022;C10022;user10022@example.com;Florida;Free;0;Y;1;0.0;;0.0;0.0;0.0;0.0;3.0;47.879999999999995;15.959999999999999;2.0;0.0;0.0;1.0
+10023;C10023;user10023@example.com;Texas;Pro;32;;0;1.0;track_workout;0.0;0.0;1.0;0.0;4.0;23.3;5.825;1.0;0.0;3.0;0.0
+10024;C10024;user10024@example.net;Delaware;Enterprise;90;;0;3.0;read_article, share_workout, watch_video;1.0;1.0;0.0;1.0;2.0;11.43;5.715;1.0;1.0;0.0;0.0
+10025;C10025;user10025@example.com;Colorado;Free;0;Y;1;0.0;;0.0;0.0;0.0;0.0;3.0;51.010000000000005;17.003333333333334;0.0;0.0;1.0;2.0
+10026;C10026;user10026@example.org;New York;Pro;43;;0;0.0;;0.0;0.0;0.0;0.0;4.0;31.11;7.7775;1.0;1.0;2.0;0.0
+10027;C10027;user10027@example.net;Montana;Pro;51;;0;1.0;track_workout;0.0;0.0;1.0;0.0;2.0;13.49;6.745;0.0;2.0;0.0;0.0
+10028;C10028;user10028@example.com;Kentucky;Enterprise;92;;0;1.0;read_article;1.0;0.0;0.0;0.0;2.0;3.96;1.98;0.0;0.0;0.0;2.0
+10029;C10029;user10029@example.com;Missouri;Pro;51;;0;2.0;read_article, track_workout;1.0;0.0;1.0;0.0;4.0;26.650000000000002;6.6625000000000005;1.0;1.0;1.0;1.0
+10030;C10030;user10030@example.com;West Virginia;Enterprise;119;;0;1.0;track_workout;0.0;0.0;1.0;0.0;2.0;13.93;6.965;2.0;0.0;0.0;0.0
+10031;C10031;user10031@example.org;Connecticut;Free;0;;0;2.0;share_workout, track_workout;0.0;1.0;1.0;0.0;4.0;14.879999999999999;3.7199999999999998;2.0;0.0;1.0;1.0
+10032;C10032;user10032@example.org;New Mexico;Enterprise;104;Y;1;0.0;;0.0;0.0;0.0;0.0;2.0;43.2;21.6;0.0;0.0;1.0;1.0
+10033;C10033;user10033@example.org;Ohio;Pro;42;Y;1;1.0;watch_video;0.0;0.0;0.0;1.0;1.0;16.78;16.78;1.0;0.0;0.0;0.0
+10034;C10034;user10034@example.com;Iowa;Enterprise;139;Y;1;2.0;read_article, watch_video;1.0;0.0;0.0;1.0;2.0;43.0;21.5;0.0;1.0;0.0;1.0
+10035;C10035;user10035@example.org;West Virginia;Basic;30;;0;1.0;share_workout;0.0;1.0;0.0;0.0;1.0;7.63;7.63;0.0;1.0;0.0;0.0
+10036;C10036;user10036@example.org;Connecticut;Enterprise;97;Y;1;1.0;share_workout;0.0;1.0;0.0;0.0;1.0;18.3;18.3;0.0;1.0;0.0;0.0
+10037;C10037;user10037@example.net;Colorado;Pro;53;;0;4.0;read_article, track_workout, watch_video;2.0;0.0;1.0;1.0;2.0;18.5;9.25;0.0;1.0;0.0;1.0
+10038;C10038;user10038@example.org;Montana;Free;0;Y;1;0.0;;0.0;0.0;0.0;0.0;6.0;98.69999999999999;16.45;1.0;3.0;1.0;1.0
+10039;C10039;user10039@example.org;Rhode Island;Enterprise;125;;0;2.0;read_article, watch_video;1.0;0.0;0.0;1.0;3.0;19.68;6.56;1.0;1.0;0.0;1.0
+10040;C10040;user10040@example.net;Kansas;Basic;19;;0;0.0;;0.0;0.0;0.0;0.0;4.0;25.770000000000003;6.442500000000001;1.0;1.0;1.0;1.0
+10041;C10041;user10041@example.org;Virginia;Enterprise;121;;0;1.0;share_workout;0.0;1.0;0.0;0.0;3.0;12.959999999999999;4.319999999999999;0.0;0.0;3.0;0.0
+10042;C10042;user10042@example.net;North Dakota;Enterprise;132;;0;0.0;;0.0;0.0;0.0;0.0;1.0;4.72;4.72;0.0;0.0;1.0;0.0
+10043;C10043;user10043@example.com;Hawaii;Enterprise;143;;0;0.0;;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+10044;C10044;user10044@example.net;Louisiana;Basic;28;;0;2.0;share_workout, track_workout;0.0;1.0;1.0;0.0;4.0;26.07;6.5175;2.0;1.0;0.0;1.0
+10045;C10045;user10045@example.com;Nebraska;Basic;19;;0;3.0;read_article, share_workout, track_workout;1.0;1.0;1.0;0.0;2.0;14.739999999999998;7.369999999999999;1.0;0.0;1.0;0.0
+10046;C10046;user10046@example.com;Rhode Island;Free;0;;0;0.0;;0.0;0.0;0.0;0.0;1.0;3.73;3.73;0.0;0.0;0.0;1.0
+10047;C10047;user10047@example.com;Missouri;Basic;22;;0;2.0;read_article, watch_video;1.0;0.0;0.0;1.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+10048;C10048;user10048@example.net;South Dakota;Enterprise;134;;0;2.0;read_article, track_workout;1.0;0.0;1.0;0.0;3.0;11.19;3.73;1.0;1.0;1.0;0.0
+10049;C10049;user10049@example.org;Virginia;Basic;12;;0;2.0;read_article, watch_video;1.0;0.0;0.0;1.0;1.0;3.17;3.17;0.0;1.0;0.0;0.0
+10050;C10050;user10050@example.com;Connecticut;Basic;16;Y;1;4.0;share_workout, track_workout, watch_video;0.0;1.0;1.0;2.0;1.0;12.15;12.15;0.0;1.0;0.0;0.0
+10051;C10051;user10051@example.com;Hawaii;Free;0;;0;1.0;track_workout;0.0;0.0;1.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+10052;C10052;user10052@example.com;West Virginia;Pro;33;Y;1;0.0;;0.0;0.0;0.0;0.0;6.0;106.98;17.830000000000002;1.0;3.0;1.0;1.0
+10053;C10053;user10053@example.org;Wisconsin;Basic;28;Y;1;0.0;;0.0;0.0;0.0;0.0;1.0;21.36;21.36;0.0;0.0;1.0;0.0
+10054;C10054;user10054@example.com;Montana;Free;0;;0;1.0;watch_video;0.0;0.0;0.0;1.0;2.0;9.66;4.83;0.0;1.0;1.0;0.0
+10055;C10055;user10055@example.net;West Virginia;Free;0;;0;2.0;track_workout, watch_video;0.0;0.0;1.0;1.0;1.0;6.0;6.0;0.0;0.0;0.0;1.0
+10056;C10056;user10056@example.com;Utah;Basic;24;;0;1.0;track_workout;0.0;0.0;1.0;0.0;2.0;23.380000000000003;11.690000000000001;2.0;0.0;0.0;0.0
+10057;C10057;user10057@example.org;Washington;Free;0;;0;2.0;share_workout;0.0;2.0;0.0;0.0;4.0;23.37;5.8425;2.0;2.0;0.0;0.0
+10058;C10058;user10058@example.org;Kansas;Free;0;Y;1;0.0;;0.0;0.0;0.0;0.0;2.0;43.14;21.57;0.0;0.0;2.0;0.0
+10059;C10059;user10059@example.com;Rhode Island;Basic;29;Y;1;2.0;read_article, watch_video;1.0;0.0;0.0;1.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+10060;C10060;user10060@example.org;Montana;Enterprise;95;;0;0.0;;0.0;0.0;0.0;0.0;4.0;30.81;7.7025;0.0;2.0;2.0;0.0
+10061;C10061;user10061@example.com;Virginia;Enterprise;99;;0;1.0;watch_video;0.0;0.0;0.0;1.0;1.0;2.07;2.07;0.0;0.0;1.0;0.0
+10062;C10062;user10062@example.org;Arizona;Free;0;;0;1.0;track_workout;0.0;0.0;1.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+10063;C10063;user10063@example.org;Louisiana;Free;0;Y;1;0.0;;0.0;0.0;0.0;0.0;3.0;49.269999999999996;16.423333333333332;1.0;1.0;1.0;0.0
+10064;C10064;user10064@example.net;Nebraska;Basic;17;;0;1.0;track_workout;0.0;0.0;1.0;0.0;3.0;37.16;12.386666666666665;1.0;2.0;0.0;0.0
+10065;C10065;user10065@example.net;Utah;Basic;24;Y;1;0.0;;0.0;0.0;0.0;0.0;3.0;61.41;20.47;1.0;1.0;1.0;0.0
+10066;C10066;user10066@example.com;Vermont;Enterprise;140;;0;0.0;;0.0;0.0;0.0;0.0;2.0;7.8;3.9;1.0;0.0;0.0;1.0
+10067;C10067;user10067@example.org;Pennsylvania;Free;0;;0;0.0;;0.0;0.0;0.0;0.0;3.0;15.3;5.1000000000000005;0.0;0.0;0.0;3.0
+10068;C10068;user10068@example.org;Nevada;Free;0;Y;1;0.0;;0.0;0.0;0.0;0.0;1.0;12.57;12.57;0.0;0.0;1.0;0.0
+10069;C10069;user10069@example.net;Hawaii;Enterprise;90;;0;0.0;;0.0;0.0;0.0;0.0;1.0;5.11;5.11;0.0;0.0;0.0;1.0
+10070;C10070;user10070@example.com;Iowa;Basic;17;;0;0.0;;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+10071;C10071;user10071@example.com;Arkansas;Free;0;Y;1;0.0;;0.0;0.0;0.0;0.0;1.0;10.48;10.48;1.0;0.0;0.0;0.0
+10072;C10072;user10072@example.com;Colorado;Enterprise;115;;0;2.0;read_article, share_workout;1.0;1.0;0.0;0.0;2.0;10.2;5.1;1.0;1.0;0.0;0.0
+10073;C10073;user10073@example.com;Virginia;Pro;79;;0;2.0;track_workout, watch_video;0.0;0.0;1.0;1.0;2.0;18.380000000000003;9.190000000000001;0.0;0.0;1.0;1.0
+10074;C10074;user10074@example.net;Illinois;Free;0;Y;1;0.0;;0.0;0.0;0.0;0.0;2.0;43.43;21.715;0.0;0.0;1.0;1.0
+10075;C10075;user10075@example.net;Montana;Free;0;Y;1;1.0;watch_video;0.0;0.0;0.0;1.0;1.0;18.92;18.92;0.0;0.0;1.0;0.0
+10076;C10076;user10076@example.net;Nebraska;Pro;49;Y;1;0.0;;0.0;0.0;0.0;0.0;2.0;50.760000000000005;25.380000000000003;0.0;1.0;0.0;1.0
+10077;C10077;user10077@example.net;Virginia;Free;0;;0;0.0;;0.0;0.0;0.0;0.0;3.0;12.69;4.2299999999999995;1.0;2.0;0.0;0.0
+10078;C10078;user10078@example.org;Kentucky;Enterprise;137;;0;2.0;share_workout;0.0;2.0;0.0;0.0;2.0;11.73;5.865;1.0;0.0;1.0;0.0
+10079;C10079;user10079@example.org;Florida;Pro;61;;0;1.0;track_workout;0.0;0.0;1.0;0.0;2.0;10.38;5.19;0.0;0.0;1.0;1.0
+10080;C10080;user10080@example.org;Delaware;Pro;64;;0;1.0;watch_video;0.0;0.0;0.0;1.0;1.0;7.25;7.25;1.0;0.0;0.0;0.0
+10081;C10081;user10081@example.com;Michigan;Free;0;;0;1.0;read_article;1.0;0.0;0.0;0.0;5.0;19.75;3.95;1.0;1.0;2.0;1.0
+10082;C10082;user10082@example.com;Ohio;Enterprise;131;;0;1.0;track_workout;0.0;0.0;1.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+10083;C10083;user10083@example.net;New Jersey;Free;0;;0;3.0;read_article, watch_video;1.0;0.0;0.0;2.0;5.0;33.489999999999995;6.697999999999999;2.0;3.0;0.0;0.0
+10084;C10084;user10084@example.com;Wyoming;Free;0;Y;1;0.0;;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+10085;C10085;user10085@example.net;North Dakota;Free;0;Y;1;1.0;watch_video;0.0;0.0;0.0;1.0;4.0;97.22;24.305;1.0;1.0;0.0;2.0
+10086;C10086;user10086@example.net;California;Free;0;Y;1;0.0;;0.0;0.0;0.0;0.0;2.0;39.89;19.945;0.0;2.0;0.0;0.0
+10087;C10087;user10087@example.com;New York;Pro;71;;0;2.0;track_workout, watch_video;0.0;0.0;1.0;1.0;2.0;6.630000000000001;3.3150000000000004;0.0;1.0;1.0;0.0
+10088;C10088;user10088@example.com;Montana;Enterprise;104;Y;1;1.0;watch_video;0.0;0.0;0.0;1.0;2.0;37.94;18.97;0.0;0.0;1.0;1.0
+10089;C10089;user10089@example.org;Texas;Free;0;;0;2.0;share_workout, track_workout;0.0;1.0;1.0;0.0;1.0;10.3;10.3;0.0;0.0;0.0;1.0
+10090;C10090;user10090@example.com;Michigan;Free;0;;0;0.0;;0.0;0.0;0.0;0.0;1.0;3.4;3.4;0.0;0.0;0.0;1.0
+10091;C10091;user10091@example.org;Oklahoma;Pro;73;Y;1;0.0;;0.0;0.0;0.0;0.0;5.0;87.62;17.524;1.0;1.0;3.0;0.0
+10092;C10092;user10092@example.org;Pennsylvania;Basic;20;;0;0.0;;0.0;0.0;0.0;0.0;1.0;1.22;1.22;0.0;0.0;1.0;0.0
+10093;C10093;user10093@example.org;Arizona;Enterprise;95;;0;0.0;;0.0;0.0;0.0;0.0;1.0;4.93;4.93;0.0;0.0;0.0;1.0
+10094;C10094;user10094@example.org;Vermont;Enterprise;125;Y;1;0.0;;0.0;0.0;0.0;0.0;1.0;9.91;9.91;1.0;0.0;0.0;0.0
+10095;C10095;user10095@example.org;Illinois;Basic;30;;0;0.0;;0.0;0.0;0.0;0.0;2.0;14.7;7.35;1.0;0.0;0.0;1.0
+10096;C10096;user10096@example.com;Michigan;Pro;60;Y;1;0.0;;0.0;0.0;0.0;0.0;1.0;14.1;14.1;1.0;0.0;0.0;0.0
+10097;C10097;user10097@example.org;Connecticut;Pro;62;;0;1.0;track_workout;0.0;0.0;1.0;0.0;3.0;26.59;8.863333333333333;0.0;0.0;0.0;3.0
+10098;C10098;user10098@example.com;Missouri;Basic;28;Y;1;0.0;;0.0;0.0;0.0;0.0;2.0;37.879999999999995;18.939999999999998;1.0;1.0;0.0;0.0
+10099;C10099;user10099@example.com;New Jersey;Enterprise;147;Y;1;0.0;;0.0;0.0;0.0;0.0;2.0;24.580000000000002;12.290000000000001;0.0;0.0;1.0;1.0
+10100;C10100;user10100@example.com;Tennessee;Enterprise;111;;0;2.0;share_workout, track_workout;0.0;1.0;1.0;0.0;4.0;30.65;7.6625;1.0;2.0;0.0;1.0
+10101;C10101;user10101@example.com;Arizona;Basic;26;;0;2.0;share_workout, watch_video;0.0;1.0;0.0;1.0;4.0;30.41;7.6025;2.0;1.0;0.0;1.0
+10102;C10102;user10102@example.net;New Mexico;Free;0;;0;0.0;;0.0;0.0;0.0;0.0;3.0;24.32;8.106666666666667;1.0;0.0;1.0;1.0
+10103;C10103;user10103@example.org;Missouri;Basic;13;;0;1.0;read_article;1.0;0.0;0.0;0.0;4.0;25.37;6.3425;0.0;0.0;2.0;2.0
+10104;C10104;user10104@example.com;Illinois;Pro;69;;0;2.0;read_article, watch_video;1.0;0.0;0.0;1.0;2.0;23.840000000000003;11.920000000000002;0.0;1.0;0.0;1.0
+10105;C10105;user10105@example.com;Utah;Basic;12;;0;2.0;track_workout;0.0;0.0;2.0;0.0;1.0;12.63;12.63;0.0;1.0;0.0;0.0
+10106;C10106;user10106@example.org;North Carolina;Enterprise;130;;0;2.0;share_workout, track_workout;0.0;1.0;1.0;0.0;1.0;8.5;8.5;0.0;0.0;0.0;1.0
+10107;C10107;user10107@example.org;Florida;Basic;10;;0;0.0;;0.0;0.0;0.0;0.0;1.0;4.44;4.44;0.0;0.0;0.0;1.0
+10108;C10108;user10108@example.com;Minnesota;Enterprise;94;Y;1;0.0;;0.0;0.0;0.0;0.0;4.0;68.39;17.0975;1.0;1.0;1.0;1.0
+10109;C10109;user10109@example.com;Tennessee;Enterprise;136;;0;3.0;share_workout, watch_video;0.0;1.0;0.0;2.0;3.0;6.43;2.143333333333333;1.0;1.0;1.0;0.0
+10110;C10110;user10110@example.net;Maryland;Free;0;;0;2.0;share_workout, watch_video;0.0;1.0;0.0;1.0;3.0;42.769999999999996;14.256666666666666;0.0;0.0;3.0;0.0
+10111;C10111;user10111@example.net;Tennessee;Free;0;Y;1;0.0;;0.0;0.0;0.0;0.0;3.0;49.4;16.466666666666665;1.0;0.0;2.0;0.0
+10112;C10112;user10112@example.com;Idaho;Basic;30;;0;0.0;;0.0;0.0;0.0;0.0;2.0;13.43;6.715;1.0;0.0;1.0;0.0
+10113;C10113;user10113@example.net;Massachusetts;Enterprise;144;Y;1;0.0;;0.0;0.0;0.0;0.0;2.0;31.35;15.675;1.0;0.0;0.0;1.0
+10114;C10114;user10114@example.net;New York;Free;0;Y;1;0.0;;0.0;0.0;0.0;0.0;1.0;23.44;23.44;1.0;0.0;0.0;0.0
+10115;C10115;user10115@example.net;Delaware;Pro;57;Y;1;0.0;;0.0;0.0;0.0;0.0;4.0;81.72;20.43;1.0;1.0;0.0;2.0
+10116;C10116;user10116@example.org;Connecticut;Free;0;Y;1;0.0;;0.0;0.0;0.0;0.0;1.0;28.27;28.27;0.0;1.0;0.0;0.0
+10117;C10117;user10117@example.net;Idaho;Basic;16;Y;1;0.0;;0.0;0.0;0.0;0.0;2.0;21.85;10.925;0.0;0.0;1.0;1.0
+10118;C10118;user10118@example.com;Delaware;Free;0;;0;2.0;track_workout, watch_video;0.0;0.0;1.0;1.0;1.0;10.69;10.69;1.0;0.0;0.0;0.0
+10119;C10119;user10119@example.net;Maryland;Free;0;Y;1;1.0;watch_video;0.0;0.0;0.0;1.0;4.0;92.6;23.15;1.0;1.0;0.0;2.0
+10120;C10120;user10120@example.net;Massachusetts;Free;0;;0;4.0;read_article, share_workout, watch_video;1.0;1.0;0.0;2.0;5.0;32.84;6.5680000000000005;1.0;0.0;2.0;2.0
+10121;C10121;user10121@example.com;New Mexico;Pro;42;;0;3.0;read_article, share_workout, track_workout;1.0;1.0;1.0;0.0;4.0;25.7;6.425;0.0;1.0;3.0;0.0
+10122;C10122;user10122@example.com;South Dakota;Basic;30;;0;1.0;track_workout;0.0;0.0;1.0;0.0;2.0;7.99;3.995;1.0;1.0;0.0;0.0
+10123;C10123;user10123@example.com;Minnesota;Basic;19;;0;2.0;track_workout, watch_video;0.0;0.0;1.0;1.0;1.0;4.73;4.73;0.0;1.0;0.0;0.0
+10124;C10124;user10124@example.org;Minnesota;Basic;25;;0;1.0;watch_video;0.0;0.0;0.0;1.0;2.0;10.73;5.365;1.0;0.0;1.0;0.0
+10125;C10125;user10125@example.com;Montana;Free;0;;0;0.0;;0.0;0.0;0.0;0.0;3.0;27.57;9.19;0.0;0.0;0.0;3.0
+10126;C10126;user10126@example.com;Ohio;Pro;62;;0;1.0;read_article;1.0;0.0;0.0;0.0;1.0;1.67;1.67;0.0;0.0;1.0;0.0
+10127;C10127;user10127@example.com;Mississippi;Enterprise;120;;0;1.0;read_article;1.0;0.0;0.0;0.0;2.0;16.330000000000002;8.165000000000001;0.0;0.0;1.0;1.0
+10128;C10128;user10128@example.org;Wyoming;Basic;17;;0;3.0;read_article, track_workout, watch_video;1.0;0.0;1.0;1.0;3.0;23.64;7.88;0.0;2.0;1.0;0.0
+10129;C10129;user10129@example.net;Delaware;Basic;10;Y;1;0.0;;0.0;0.0;0.0;0.0;4.0;47.48;11.87;1.0;0.0;2.0;1.0
+10130;C10130;user10130@example.net;Washington;Basic;17;;0;1.0;watch_video;0.0;0.0;0.0;1.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+10131;C10131;user10131@example.com;Kentucky;Pro;54;;0;0.0;;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+10132;C10132;user10132@example.net;Alaska;Enterprise;125;;0;3.0;read_article, track_workout, watch_video;1.0;0.0;1.0;1.0;2.0;22.79;11.395;1.0;0.0;1.0;0.0
+10133;C10133;user10133@example.org;Missouri;Enterprise;147;;0;3.0;read_article, track_workout, watch_video;1.0;0.0;1.0;1.0;4.0;26.35;6.5875;1.0;0.0;3.0;0.0
+10134;C10134;user10134@example.com;Vermont;Basic;23;;0;4.0;read_article, track_workout, watch_video;2.0;0.0;1.0;1.0;2.0;20.45;10.225;1.0;1.0;0.0;0.0
+10135;C10135;user10135@example.net;South Carolina;Basic;24;;0;0.0;;0.0;0.0;0.0;0.0;3.0;12.41;4.136666666666667;0.0;0.0;1.0;2.0
+10136;C10136;user10136@example.com;Arkansas;Free;0;;0;0.0;;0.0;0.0;0.0;0.0;2.0;16.54;8.27;1.0;0.0;1.0;0.0
+10137;C10137;user10137@example.net;Virginia;Free;0;;0;2.0;share_workout, watch_video;0.0;1.0;0.0;1.0;2.0;16.0;8.0;0.0;0.0;1.0;1.0
+10138;C10138;user10138@example.com;West Virginia;Basic;10;;0;0.0;;0.0;0.0;0.0;0.0;4.0;21.68;5.42;4.0;0.0;0.0;0.0
+10139;C10139;user10139@example.com;Missouri;Free;0;;0;1.0;track_workout;0.0;0.0;1.0;0.0;4.0;26.79;6.6975;2.0;1.0;1.0;0.0
+10140;C10140;user10140@example.net;Massachusetts;Free;0;Y;1;2.0;read_article;2.0;0.0;0.0;0.0;3.0;68.33;22.776666666666667;1.0;1.0;1.0;0.0
+10141;C10141;user10141@example.org;Utah;Enterprise;87;;0;2.0;share_workout, track_workout;0.0;1.0;1.0;0.0;2.0;22.0;11.0;0.0;1.0;0.0;1.0
+10142;C10142;user10142@example.org;North Dakota;Enterprise;131;Y;1;0.0;;0.0;0.0;0.0;0.0;2.0;22.91;11.455;0.0;1.0;1.0;0.0
+10143;C10143;user10143@example.com;Montana;Enterprise;137;;0;4.0;read_article, share_workout, track_workout;1.0;1.0;2.0;0.0;3.0;3.87;1.29;1.0;1.0;1.0;0.0
+10144;C10144;user10144@example.org;Vermont;Pro;56;;0;1.0;share_workout;0.0;1.0;0.0;0.0;3.0;14.91;4.97;0.0;0.0;2.0;1.0
+10145;C10145;user10145@example.net;Rhode Island;Enterprise;116;;0;2.0;read_article, share_workout;1.0;1.0;0.0;0.0;1.0;11.49;11.49;0.0;0.0;1.0;0.0
+10146;C10146;user10146@example.com;Florida;Enterprise;148;Y;1;1.0;read_article;1.0;0.0;0.0;0.0;2.0;13.489999999999998;6.744999999999999;0.0;1.0;0.0;1.0
+10147;C10147;user10147@example.com;Iowa;Basic;19;;0;1.0;read_article;1.0;0.0;0.0;0.0;1.0;5.2;5.2;0.0;1.0;0.0;0.0
+10148;C10148;user10148@example.com;Ohio;Free;0;Y;1;0.0;;0.0;0.0;0.0;0.0;3.0;68.92;22.973333333333333;1.0;1.0;1.0;0.0
+10149;C10149;user10149@example.com;Louisiana;Free;0;;0;2.0;track_workout;0.0;0.0;2.0;0.0;2.0;17.57;8.785;0.0;0.0;1.0;1.0
+10150;C10150;user10150@example.net;Missouri;Basic;30;Y;1;0.0;;0.0;0.0;0.0;0.0;4.0;63.260000000000005;15.815000000000001;1.0;1.0;1.0;1.0
+10151;C10151;user10151@example.com;Pennsylvania;Enterprise;134;;0;1.0;read_article;1.0;0.0;0.0;0.0;3.0;27.97;9.323333333333332;1.0;1.0;0.0;1.0
+10152;C10152;user10152@example.org;North Dakota;Pro;67;Y;1;1.0;watch_video;0.0;0.0;0.0;1.0;3.0;42.92;14.306666666666667;2.0;0.0;0.0;1.0
+10153;C10153;user10153@example.net;Montana;Basic;13;;0;2.0;share_workout, watch_video;0.0;1.0;0.0;1.0;1.0;4.32;4.32;1.0;0.0;0.0;0.0
+10154;C10154;user10154@example.net;Virginia;Free;0;Y;1;1.0;read_article;1.0;0.0;0.0;0.0;1.0;14.51;14.51;0.0;1.0;0.0;0.0
+10155;C10155;user10155@example.org;Virginia;Pro;34;Y;1;0.0;;0.0;0.0;0.0;0.0;1.0;15.62;15.62;0.0;1.0;0.0;0.0
+10156;C10156;user10156@example.org;Massachusetts;Pro;72;;0;0.0;;0.0;0.0;0.0;0.0;2.0;13.42;6.71;1.0;0.0;1.0;0.0
+10157;C10157;user10157@example.com;Washington;Basic;18;;0;1.0;share_workout;0.0;1.0;0.0;0.0;2.0;10.26;5.13;0.0;1.0;0.0;1.0
+10158;C10158;user10158@example.com;Minnesota;Pro;73;;0;2.0;read_article, watch_video;1.0;0.0;0.0;1.0;5.0;32.19;6.438;0.0;1.0;2.0;2.0
+10159;C10159;user10159@example.net;Ohio;Pro;69;;0;2.0;read_article;2.0;0.0;0.0;0.0;1.0;4.55;4.55;1.0;0.0;0.0;0.0
+10160;C10160;user10160@example.net;New Jersey;Basic;21;Y;1;0.0;;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+10161;C10161;user10161@example.org;Ohio;Basic;27;;0;0.0;;0.0;0.0;0.0;0.0;1.0;11.62;11.62;0.0;1.0;0.0;0.0
+10162;C10162;user10162@example.net;Maryland;Pro;32;Y;1;0.0;;0.0;0.0;0.0;0.0;4.0;103.75999999999999;25.939999999999998;1.0;1.0;1.0;1.0
+10163;C10163;user10163@example.net;Hawaii;Basic;24;Y;1;0.0;;0.0;0.0;0.0;0.0;3.0;62.41;20.80333333333333;0.0;0.0;2.0;1.0
+10164;C10164;user10164@example.com;Arkansas;Free;0;;0;2.0;share_workout, track_workout;0.0;1.0;1.0;0.0;2.0;13.61;6.805;0.0;0.0;0.0;2.0
+10165;C10165;user10165@example.com;Tennessee;Enterprise;137;;0;2.0;share_workout, track_workout;0.0;1.0;1.0;0.0;2.0;19.909999999999997;9.954999999999998;1.0;1.0;0.0;0.0
+10166;C10166;user10166@example.org;Nevada;Free;0;;0;3.0;track_workout, watch_video;0.0;0.0;2.0;1.0;3.0;29.259999999999998;9.753333333333332;1.0;2.0;0.0;0.0
+10167;C10167;user10167@example.org;West Virginia;Pro;43;;0;2.0;read_article, watch_video;1.0;0.0;0.0;1.0;1.0;6.87;6.87;0.0;0.0;0.0;1.0
+10168;C10168;user10168@example.org;Utah;Enterprise;91;;0;2.0;read_article, track_workout;1.0;0.0;1.0;0.0;4.0;56.23;14.0575;1.0;1.0;1.0;1.0
+10169;C10169;user10169@example.net;Connecticut;Basic;14;;0;2.0;read_article, watch_video;1.0;0.0;0.0;1.0;4.0;29.2;7.3;1.0;3.0;0.0;0.0
+10170;C10170;user10170@example.org;New Jersey;Basic;22;Y;1;0.0;;0.0;0.0;0.0;0.0;2.0;48.39;24.195;0.0;1.0;0.0;1.0
+10171;C10171;user10171@example.org;Oregon;Basic;27;;0;1.0;track_workout;0.0;0.0;1.0;0.0;2.0;20.32;10.16;1.0;0.0;0.0;1.0
+10172;C10172;user10172@example.org;Georgia;Free;0;;0;1.0;track_workout;0.0;0.0;1.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+10173;C10173;user10173@example.com;Florida;Basic;23;;0;2.0;read_article, share_workout;1.0;1.0;0.0;0.0;1.0;7.99;7.99;0.0;0.0;0.0;1.0
+10174;C10174;user10174@example.com;Tennessee;Free;0;;0;1.0;track_workout;0.0;0.0;1.0;0.0;2.0;9.82;4.91;0.0;0.0;1.0;1.0
+10175;C10175;user10175@example.net;Massachusetts;Free;0;;0;0.0;;0.0;0.0;0.0;0.0;1.0;1.85;1.85;1.0;0.0;0.0;0.0
+10176;C10176;user10176@example.com;South Carolina;Pro;50;;0;0.0;;0.0;0.0;0.0;0.0;3.0;5.96;1.9866666666666666;1.0;1.0;1.0;0.0
+10177;C10177;user10177@example.org;South Dakota;Pro;80;;0;3.0;track_workout, watch_video;0.0;0.0;2.0;1.0;3.0;30.76;10.253333333333334;1.0;1.0;1.0;0.0
+10178;C10178;user10178@example.org;Idaho;Basic;21;;0;2.0;watch_video;0.0;0.0;0.0;2.0;2.0;6.5600000000000005;3.2800000000000002;1.0;1.0;0.0;0.0
+10179;C10179;user10179@example.net;Mississippi;Basic;10;;0;5.0;share_workout, track_workout, watch_video;0.0;1.0;3.0;1.0;1.0;6.32;6.32;0.0;1.0;0.0;0.0
+10180;C10180;user10180@example.org;Missouri;Pro;54;;0;1.0;watch_video;0.0;0.0;0.0;1.0;2.0;12.84;6.42;0.0;1.0;1.0;0.0
+10181;C10181;user10181@example.com;Mississippi;Free;0;Y;1;0.0;;0.0;0.0;0.0;0.0;1.0;20.91;20.91;0.0;0.0;0.0;1.0
+10182;C10182;user10182@example.net;Wisconsin;Pro;34;;0;0.0;;0.0;0.0;0.0;0.0;2.0;11.27;5.635;1.0;0.0;0.0;1.0
+10183;C10183;user10183@example.net;Michigan;Enterprise;112;Y;1;0.0;;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+10184;C10184;user10184@example.com;Colorado;Free;0;Y;1;0.0;;0.0;0.0;0.0;0.0;1.0;11.75;11.75;0.0;1.0;0.0;0.0
+10185;C10185;user10185@example.net;Wisconsin;Basic;15;;0;3.0;track_workout, watch_video;0.0;0.0;1.0;2.0;4.0;24.65;6.1625;1.0;0.0;1.0;2.0
+10186;C10186;user10186@example.net;North Dakota;Free;0;;0;1.0;track_workout;0.0;0.0;1.0;0.0;2.0;5.47;2.735;0.0;2.0;0.0;0.0
+10187;C10187;user10187@example.net;Alaska;Free;0;Y;1;1.0;watch_video;0.0;0.0;0.0;1.0;3.0;65.53999999999999;21.846666666666664;0.0;2.0;1.0;0.0
+10188;C10188;user10188@example.com;Tennessee;Pro;48;;0;3.0;read_article, watch_video;2.0;0.0;0.0;1.0;2.0;15.74;7.87;0.0;1.0;0.0;1.0
+10189;C10189;user10189@example.net;Vermont;Pro;37;;0;1.0;share_workout;0.0;1.0;0.0;0.0;3.0;13.55;4.516666666666667;2.0;0.0;0.0;1.0
+10190;C10190;user10190@example.com;Virginia;Pro;77;;0;0.0;;0.0;0.0;0.0;0.0;2.0;16.15;8.075;0.0;0.0;1.0;1.0
+10191;C10191;user10191@example.com;Idaho;Pro;45;;0;1.0;track_workout;0.0;0.0;1.0;0.0;4.0;41.79;10.4475;1.0;2.0;0.0;1.0
+10192;C10192;user10192@example.org;Delaware;Enterprise;94;;0;3.0;read_article, track_workout, watch_video;1.0;0.0;1.0;1.0;2.0;14.299999999999999;7.1499999999999995;0.0;1.0;1.0;0.0
+10193;C10193;user10193@example.org;Washington;Free;0;;0;2.0;read_article, watch_video;1.0;0.0;0.0;1.0;4.0;31.46;7.865;1.0;0.0;2.0;1.0
+10194;C10194;user10194@example.net;Massachusetts;Basic;15;;0;2.0;read_article, track_workout;1.0;0.0;1.0;0.0;3.0;18.919999999999998;6.306666666666666;1.0;1.0;0.0;1.0
+10195;C10195;user10195@example.org;Alaska;Basic;24;;0;1.0;read_article;1.0;0.0;0.0;0.0;2.0;10.31;5.155;2.0;0.0;0.0;0.0
+10196;C10196;user10196@example.net;Indiana;Enterprise;140;;0;3.0;share_workout, watch_video;0.0;1.0;0.0;2.0;2.0;22.97;11.485;1.0;0.0;1.0;0.0
+10197;C10197;user10197@example.org;Maryland;Basic;12;;0;3.0;share_workout, track_workout;0.0;1.0;2.0;0.0;6.0;58.150000000000006;9.691666666666668;2.0;1.0;2.0;1.0
+10198;C10198;user10198@example.com;North Carolina;Pro;78;;0;1.0;watch_video;0.0;0.0;0.0;1.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+10199;C10199;user10199@example.org;Alabama;Free;0;;0;0.0;;0.0;0.0;0.0;0.0;3.0;14.629999999999999;4.876666666666666;1.0;0.0;1.0;1.0
+10200;C10200;user10200@example.net;Illinois;Pro;64;;0;3.0;track_workout, watch_video;0.0;0.0;1.0;2.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+10201;C10201;user10201@example.com;Vermont;Enterprise;81;;0;0.0;;0.0;0.0;0.0;0.0;2.0;16.56;8.28;1.0;0.0;1.0;0.0
+10202;C10202;user10202@example.com;Virginia;Basic;21;;0;2.0;read_article, share_workout;1.0;1.0;0.0;0.0;3.0;21.21;7.07;2.0;0.0;0.0;1.0
+10203;C10203;user10203@example.com;Hawaii;Free;0;;0;2.0;read_article, track_workout;1.0;0.0;1.0;0.0;1.0;10.64;10.64;0.0;1.0;0.0;0.0
+10204;C10204;user10204@example.net;Rhode Island;Enterprise;139;;0;1.0;track_workout;0.0;0.0;1.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+10205;C10205;user10205@example.org;Indiana;Pro;39;;0;1.0;watch_video;0.0;0.0;0.0;1.0;3.0;30.0;10.0;1.0;1.0;1.0;0.0
+10206;C10206;user10206@example.org;Missouri;Free;0;Y;1;0.0;;0.0;0.0;0.0;0.0;4.0;75.61;18.9025;2.0;1.0;0.0;1.0
+10207;C10207;user10207@example.org;Maryland;Pro;35;;0;1.0;watch_video;0.0;0.0;0.0;1.0;3.0;38.09;12.696666666666667;1.0;0.0;1.0;1.0
+10208;C10208;user10208@example.org;Delaware;Basic;24;;0;3.0;read_article, track_workout, watch_video;1.0;0.0;1.0;1.0;3.0;22.78;7.593333333333334;1.0;2.0;0.0;0.0
+10209;C10209;user10209@example.net;New Hampshire;Basic;15;;0;1.0;watch_video;0.0;0.0;0.0;1.0;3.0;15.969999999999999;5.323333333333333;0.0;0.0;1.0;2.0
+10210;C10210;user10210@example.org;Iowa;Basic;12;;0;3.0;read_article, track_workout;2.0;0.0;1.0;0.0;4.0;31.869999999999997;7.967499999999999;1.0;1.0;1.0;1.0
+10211;C10211;user10211@example.com;New Mexico;Basic;23;;0;1.0;share_workout;0.0;1.0;0.0;0.0;4.0;23.33;5.8325;1.0;2.0;0.0;1.0
+10212;C10212;user10212@example.org;Texas;Free;0;;0;4.0;read_article, share_workout, track_workout, watch_video;1.0;1.0;1.0;1.0;3.0;20.33;6.776666666666666;0.0;1.0;1.0;1.0
+10213;C10213;user10213@example.net;Wisconsin;Pro;39;;0;0.0;;0.0;0.0;0.0;0.0;1.0;1.3;1.3;0.0;0.0;1.0;0.0
+10214;C10214;user10214@example.com;North Dakota;Enterprise;118;Y;1;2.0;read_article;2.0;0.0;0.0;0.0;1.0;17.5;17.5;0.0;1.0;0.0;0.0
+10215;C10215;user10215@example.com;Alaska;Pro;65;;0;0.0;;0.0;0.0;0.0;0.0;3.0;22.32;7.44;0.0;1.0;1.0;1.0
+10216;C10216;user10216@example.net;South Carolina;Basic;20;;0;1.0;track_workout;0.0;0.0;1.0;0.0;3.0;23.96;7.986666666666667;2.0;0.0;1.0;0.0
+10217;C10217;user10217@example.net;Oklahoma;Enterprise;81;;0;1.0;share_workout;0.0;1.0;0.0;0.0;1.0;10.19;10.19;0.0;0.0;0.0;1.0
+10218;C10218;user10218@example.net;Montana;Basic;21;;0;1.0;read_article;1.0;0.0;0.0;0.0;1.0;4.58;4.58;1.0;0.0;0.0;0.0
+10219;C10219;user10219@example.net;Illinois;Basic;23;Y;1;1.0;watch_video;0.0;0.0;0.0;1.0;4.0;89.54;22.385;3.0;0.0;0.0;1.0
+10220;C10220;user10220@example.org;Arkansas;Basic;15;;0;2.0;read_article, watch_video;1.0;0.0;0.0;1.0;2.0;5.83;2.915;1.0;0.0;0.0;1.0
+10221;C10221;user10221@example.com;New Hampshire;Pro;73;;0;0.0;;0.0;0.0;0.0;0.0;4.0;43.58;10.895;1.0;0.0;1.0;2.0
+10222;C10222;user10222@example.net;Minnesota;Free;0;;0;0.0;;0.0;0.0;0.0;0.0;1.0;5.05;5.05;0.0;0.0;0.0;1.0
+10223;C10223;user10223@example.com;Rhode Island;Enterprise;91;;0;3.0;share_workout, watch_video;0.0;2.0;0.0;1.0;3.0;27.43;9.143333333333333;0.0;2.0;0.0;1.0
+10224;C10224;user10224@example.org;Iowa;Basic;30;;0;0.0;;0.0;0.0;0.0;0.0;1.0;8.06;8.06;0.0;1.0;0.0;0.0
+10225;C10225;user10225@example.net;Oregon;Enterprise;144;Y;1;0.0;;0.0;0.0;0.0;0.0;1.0;32.46;32.46;0.0;0.0;1.0;0.0
+10226;C10226;user10226@example.com;California;Free;0;;0;2.0;watch_video;0.0;0.0;0.0;2.0;1.0;2.66;2.66;0.0;1.0;0.0;0.0
+10227;C10227;user10227@example.net;Wyoming;Basic;23;;0;2.0;read_article, share_workout;1.0;1.0;0.0;0.0;2.0;10.59;5.295;0.0;2.0;0.0;0.0
+10228;C10228;user10228@example.org;Alabama;Basic;27;;0;3.0;share_workout, track_workout;0.0;1.0;2.0;0.0;3.0;14.91;4.97;1.0;0.0;2.0;0.0
+10229;C10229;user10229@example.org;Nebraska;Pro;49;;0;2.0;read_article, watch_video;1.0;0.0;0.0;1.0;1.0;14.01;14.01;0.0;0.0;1.0;0.0
+10230;C10230;user10230@example.com;Georgia;Enterprise;125;;0;1.0;read_article;1.0;0.0;0.0;0.0;2.0;25.28;12.64;1.0;1.0;0.0;0.0
+10231;C10231;user10231@example.org;New York;Basic;21;;0;2.0;read_article, track_workout;1.0;0.0;1.0;0.0;3.0;19.099999999999998;6.366666666666666;1.0;2.0;0.0;0.0
+10232;C10232;user10232@example.net;Maine;Free;0;;0;2.0;read_article, share_workout;1.0;1.0;0.0;0.0;4.0;28.439999999999998;7.109999999999999;2.0;2.0;0.0;0.0
+10233;C10233;user10233@example.org;Nevada;Free;0;;0;2.0;read_article;2.0;0.0;0.0;0.0;1.0;5.01;5.01;1.0;0.0;0.0;0.0
+10234;C10234;user10234@example.org;Idaho;Pro;32;;0;1.0;watch_video;0.0;0.0;0.0;1.0;2.0;14.33;7.165;0.0;0.0;1.0;1.0
+10235;C10235;user10235@example.org;California;Pro;66;Y;1;1.0;watch_video;0.0;0.0;0.0;1.0;1.0;17.31;17.31;0.0;0.0;0.0;1.0
+10236;C10236;user10236@example.net;South Dakota;Free;0;;0;0.0;;0.0;0.0;0.0;0.0;4.0;28.08;7.02;2.0;0.0;2.0;0.0
+10237;C10237;user10237@example.net;Maine;Pro;78;Y;1;0.0;;0.0;0.0;0.0;0.0;3.0;56.92;18.973333333333333;0.0;2.0;0.0;1.0
+10238;C10238;user10238@example.org;Wisconsin;Basic;18;Y;1;0.0;;0.0;0.0;0.0;0.0;1.0;15.03;15.03;0.0;0.0;1.0;0.0
+10239;C10239;user10239@example.net;Indiana;Pro;45;;0;2.0;share_workout, track_workout;0.0;1.0;1.0;0.0;1.0;7.38;7.38;0.0;0.0;1.0;0.0
+10240;C10240;user10240@example.net;Nebraska;Basic;29;Y;1;0.0;;0.0;0.0;0.0;0.0;2.0;51.51;25.755;0.0;0.0;0.0;2.0
+10241;C10241;user10241@example.org;New York;Enterprise;138;;0;5.0;read_article, share_workout, track_workout, watch_video;2.0;1.0;1.0;1.0;2.0;11.59;5.795;0.0;0.0;2.0;0.0
+10242;C10242;user10242@example.org;Texas;Pro;62;;0;1.0;share_workout;0.0;1.0;0.0;0.0;1.0;2.61;2.61;1.0;0.0;0.0;0.0
+10243;C10243;user10243@example.com;Iowa;Pro;79;;0;3.0;share_workout, watch_video;0.0;2.0;0.0;1.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+10244;C10244;user10244@example.net;Delaware;Basic;20;;0;0.0;;0.0;0.0;0.0;0.0;6.0;32.06;5.343333333333334;1.0;0.0;1.0;4.0
+10245;C10245;user10245@example.org;New Hampshire;Free;0;;0;1.0;read_article;1.0;0.0;0.0;0.0;1.0;3.97;3.97;0.0;1.0;0.0;0.0
+10246;C10246;user10246@example.net;Oklahoma;Enterprise;145;Y;1;0.0;;0.0;0.0;0.0;0.0;2.0;31.64;15.82;0.0;0.0;1.0;1.0
+10247;C10247;user10247@example.com;North Dakota;Free;0;;0;1.0;track_workout;0.0;0.0;1.0;0.0;3.0;17.47;5.823333333333333;0.0;1.0;0.0;2.0
+10248;C10248;user10248@example.org;Oklahoma;Basic;23;;0;1.0;read_article;1.0;0.0;0.0;0.0;2.0;14.05;7.025;1.0;1.0;0.0;0.0
+10249;C10249;user10249@example.com;Texas;Pro;67;;0;1.0;track_workout;0.0;0.0;1.0;0.0;2.0;15.870000000000001;7.9350000000000005;0.0;0.0;1.0;1.0
+10250;C10250;user10250@example.org;Vermont;Enterprise;132;;0;0.0;;0.0;0.0;0.0;0.0;3.0;20.21;6.736666666666667;3.0;0.0;0.0;0.0
+10251;C10251;user10251@example.com;Hawaii;Basic;26;;0;2.0;read_article;2.0;0.0;0.0;0.0;3.0;22.740000000000002;7.580000000000001;2.0;1.0;0.0;0.0
+10252;C10252;user10252@example.com;Pennsylvania;Basic;16;Y;1;1.0;read_article;1.0;0.0;0.0;0.0;2.0;46.06;23.03;1.0;0.0;1.0;0.0
+10253;C10253;user10253@example.org;South Carolina;Enterprise;104;;0;2.0;share_workout, track_workout;0.0;1.0;1.0;0.0;2.0;12.44;6.22;0.0;0.0;0.0;2.0
+10254;C10254;user10254@example.org;Washington;Free;0;Y;1;1.0;read_article;1.0;0.0;0.0;0.0;1.0;12.04;12.04;0.0;1.0;0.0;0.0
+10255;C10255;user10255@example.net;Iowa;Basic;13;Y;1;0.0;;0.0;0.0;0.0;0.0;5.0;90.65;18.130000000000003;1.0;2.0;2.0;0.0
+10256;C10256;user10256@example.com;Arizona;Enterprise;133;;0;0.0;;0.0;0.0;0.0;0.0;1.0;6.15;6.15;0.0;0.0;0.0;1.0
+10257;C10257;user10257@example.com;North Carolina;Pro;55;;0;0.0;;0.0;0.0;0.0;0.0;4.0;14.43;3.6075;0.0;2.0;2.0;0.0
+10258;C10258;user10258@example.org;Kansas;Free;0;Y;1;0.0;;0.0;0.0;0.0;0.0;4.0;76.41;19.1025;2.0;1.0;0.0;1.0
+10259;C10259;user10259@example.org;Idaho;Free;0;;0;0.0;;0.0;0.0;0.0;0.0;4.0;23.85;5.9625;1.0;1.0;1.0;1.0
+10260;C10260;user10260@example.com;Rhode Island;Basic;22;;0;1.0;read_article;1.0;0.0;0.0;0.0;4.0;23.57;5.8925;2.0;0.0;2.0;0.0
+10261;C10261;user10261@example.org;Virginia;Free;0;;0;0.0;;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+10262;C10262;user10262@example.org;Florida;Enterprise;82;;0;2.0;share_workout, track_workout;0.0;1.0;1.0;0.0;2.0;15.91;7.955;1.0;0.0;1.0;0.0
+10263;C10263;user10263@example.org;New York;Enterprise;117;;0;1.0;watch_video;0.0;0.0;0.0;1.0;4.0;22.42;5.605;0.0;0.0;3.0;1.0
+10264;C10264;user10264@example.com;Idaho;Enterprise;93;;0;4.0;read_article, share_workout, watch_video;2.0;1.0;0.0;1.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+10265;C10265;user10265@example.net;Colorado;Free;0;;0;1.0;watch_video;0.0;0.0;0.0;1.0;1.0;6.22;6.22;0.0;0.0;1.0;0.0
+10266;C10266;user10266@example.net;Virginia;Free;0;;0;5.0;read_article, share_workout, track_workout, watch_video;2.0;1.0;1.0;1.0;2.0;14.83;7.415;1.0;0.0;0.0;1.0
+10267;C10267;user10267@example.net;Colorado;Pro;35;Y;1;1.0;share_workout;0.0;1.0;0.0;0.0;2.0;31.22;15.61;0.0;0.0;0.0;2.0
+10268;C10268;user10268@example.net;Vermont;Basic;24;;0;1.0;watch_video;0.0;0.0;0.0;1.0;3.0;19.9;6.633333333333333;1.0;0.0;1.0;1.0
+10269;C10269;user10269@example.org;Delaware;Enterprise;125;;0;0.0;;0.0;0.0;0.0;0.0;4.0;16.86;4.215;1.0;2.0;1.0;0.0
+10270;C10270;user10270@example.org;Alaska;Basic;12;Y;1;0.0;;0.0;0.0;0.0;0.0;4.0;77.76;19.44;1.0;1.0;0.0;2.0
+10271;C10271;user10271@example.org;Hawaii;Enterprise;130;;0;3.0;read_article, track_workout, watch_video;1.0;0.0;1.0;1.0;4.0;20.240000000000002;5.0600000000000005;2.0;0.0;1.0;1.0
+10272;C10272;user10272@example.com;Pennsylvania;Basic;14;;0;2.0;track_workout;0.0;0.0;2.0;0.0;5.0;30.240000000000002;6.048;0.0;1.0;0.0;4.0
+10273;C10273;user10273@example.org;Rhode Island;Free;0;Y;1;1.0;watch_video;0.0;0.0;0.0;1.0;3.0;55.89;18.63;0.0;1.0;1.0;1.0
+10274;C10274;user10274@example.org;Virginia;Basic;11;;0;1.0;track_workout;0.0;0.0;1.0;0.0;1.0;3.34;3.34;0.0;0.0;0.0;1.0
+10275;C10275;user10275@example.com;Indiana;Enterprise;145;;0;2.0;share_workout, watch_video;0.0;1.0;0.0;1.0;2.0;3.5199999999999996;1.7599999999999998;0.0;0.0;1.0;1.0
+10276;C10276;user10276@example.net;Massachusetts;Free;0;;0;0.0;;0.0;0.0;0.0;0.0;4.0;26.58;6.645;1.0;2.0;1.0;0.0
+10277;C10277;user10277@example.org;Indiana;Enterprise;129;Y;1;0.0;;0.0;0.0;0.0;0.0;3.0;48.54;16.18;0.0;2.0;1.0;0.0
+10278;C10278;user10278@example.net;Missouri;Pro;78;;0;1.0;share_workout;0.0;1.0;0.0;0.0;1.0;8.24;8.24;0.0;1.0;0.0;0.0
+10279;C10279;user10279@example.net;Tennessee;Enterprise;140;Y;1;0.0;;0.0;0.0;0.0;0.0;5.0;75.67999999999999;15.136;2.0;1.0;1.0;1.0
+10280;C10280;user10280@example.net;North Carolina;Pro;53;;0;3.0;share_workout, watch_video;0.0;1.0;0.0;2.0;2.0;15.92;7.96;1.0;0.0;1.0;0.0
+10281;C10281;user10281@example.net;Michigan;Enterprise;120;Y;1;0.0;;0.0;0.0;0.0;0.0;3.0;44.56;14.853333333333333;1.0;2.0;0.0;0.0
+10282;C10282;user10282@example.org;Nevada;Enterprise;141;Y;1;0.0;;0.0;0.0;0.0;0.0;2.0;43.07;21.535;0.0;1.0;0.0;1.0
+10283;C10283;user10283@example.org;Minnesota;Enterprise;124;;0;0.0;;0.0;0.0;0.0;0.0;3.0;17.1;5.7;0.0;1.0;1.0;1.0
+10284;C10284;user10284@example.org;North Dakota;Free;0;;0;1.0;watch_video;0.0;0.0;0.0;1.0;1.0;11.59;11.59;1.0;0.0;0.0;0.0
+10285;C10285;user10285@example.net;Maryland;Enterprise;133;;0;0.0;;0.0;0.0;0.0;0.0;1.0;12.42;12.42;0.0;0.0;1.0;0.0
+10286;C10286;user10286@example.org;Arizona;Pro;78;;0;1.0;track_workout;0.0;0.0;1.0;0.0;1.0;10.39;10.39;0.0;1.0;0.0;0.0
+10287;C10287;user10287@example.com;Oregon;Enterprise;108;;0;0.0;;0.0;0.0;0.0;0.0;1.0;13.69;13.69;0.0;1.0;0.0;0.0
+10288;C10288;user10288@example.com;Kansas;Basic;16;;0;1.0;track_workout;0.0;0.0;1.0;0.0;3.0;27.92;9.306666666666667;0.0;1.0;2.0;0.0
+10289;C10289;user10289@example.org;Michigan;Free;0;Y;1;1.0;watch_video;0.0;0.0;0.0;1.0;4.0;81.21;20.3025;0.0;3.0;1.0;0.0
+10290;C10290;user10290@example.net;Pennsylvania;Free;0;Y;1;0.0;;0.0;0.0;0.0;0.0;1.0;25.9;25.9;0.0;0.0;1.0;0.0
+10291;C10291;user10291@example.com;Florida;Pro;51;Y;1;0.0;;0.0;0.0;0.0;0.0;2.0;45.19;22.595;1.0;0.0;1.0;0.0
+10292;C10292;user10292@example.org;Mississippi;Free;0;Y;1;1.0;watch_video;0.0;0.0;0.0;1.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+10293;C10293;user10293@example.net;Wyoming;Basic;20;;0;2.0;read_article, share_workout;1.0;1.0;0.0;0.0;4.0;23.27;5.8175;1.0;1.0;0.0;2.0
+10294;C10294;user10294@example.net;Arizona;Pro;54;;0;3.0;read_article, track_workout, watch_video;1.0;0.0;1.0;1.0;3.0;22.14;7.38;1.0;1.0;1.0;0.0
+10295;C10295;user10295@example.com;Georgia;Basic;12;;0;1.0;track_workout;0.0;0.0;1.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+10296;C10296;user10296@example.org;Mississippi;Pro;50;Y;1;0.0;;0.0;0.0;0.0;0.0;3.0;48.72;16.24;0.0;1.0;1.0;1.0
+10297;C10297;user10297@example.net;Mississippi;Pro;48;;0;0.0;;0.0;0.0;0.0;0.0;1.0;3.92;3.92;0.0;0.0;0.0;1.0
+10298;C10298;user10298@example.com;Louisiana;Pro;37;;0;0.0;;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+10299;C10299;user10299@example.org;Montana;Free;0;Y;1;0.0;;0.0;0.0;0.0;0.0;2.0;35.8;17.9;1.0;1.0;0.0;0.0
+10300;C10300;user10300@example.com;Washington;Basic;27;;0;1.0;track_workout;0.0;0.0;1.0;0.0;6.0;55.61;9.268333333333333;1.0;1.0;1.0;3.0
+10301;C10301;user10301@example.com;Mississippi;Pro;47;;0;1.0;read_article;1.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+10302;C10302;user10302@example.net;Oregon;Enterprise;136;Y;1;0.0;;0.0;0.0;0.0;0.0;3.0;62.47;20.823333333333334;0.0;1.0;2.0;0.0
+10303;C10303;user10303@example.org;Mississippi;Pro;61;;0;2.0;read_article, track_workout;1.0;0.0;1.0;0.0;4.0;13.299999999999999;3.3249999999999997;3.0;0.0;1.0;0.0
+10304;C10304;user10304@example.com;New Hampshire;Pro;55;Y;1;0.0;;0.0;0.0;0.0;0.0;3.0;68.23;22.743333333333336;2.0;1.0;0.0;0.0
+10305;C10305;user10305@example.net;North Dakota;Free;0;;0;2.0;read_article, track_workout;1.0;0.0;1.0;0.0;3.0;21.03;7.010000000000001;0.0;0.0;1.0;2.0
+10306;C10306;user10306@example.net;Tennessee;Free;0;;0;2.0;track_workout, watch_video;0.0;0.0;1.0;1.0;1.0;5.14;5.14;1.0;0.0;0.0;0.0
+10307;C10307;user10307@example.com;Indiana;Basic;11;;0;0.0;;0.0;0.0;0.0;0.0;2.0;11.51;5.755;2.0;0.0;0.0;0.0
+10308;C10308;user10308@example.com;Vermont;Free;0;Y;1;0.0;;0.0;0.0;0.0;0.0;1.0;17.5;17.5;1.0;0.0;0.0;0.0
+10309;C10309;user10309@example.org;Michigan;Pro;42;;0;3.0;read_article, watch_video;1.0;0.0;0.0;2.0;4.0;28.11;7.0275;1.0;1.0;2.0;0.0
+10310;C10310;user10310@example.net;Arizona;Basic;20;;0;2.0;share_workout;0.0;2.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+10311;C10311;user10311@example.com;North Dakota;Basic;10;Y;1;0.0;;0.0;0.0;0.0;0.0;3.0;75.57;25.189999999999998;2.0;1.0;0.0;0.0
+10312;C10312;user10312@example.net;Wyoming;Enterprise;134;;0;3.0;share_workout;0.0;3.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+10313;C10313;user10313@example.com;Virginia;Basic;18;;0;1.0;share_workout;0.0;1.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+10314;C10314;user10314@example.org;Wisconsin;Basic;17;;0;1.0;watch_video;0.0;0.0;0.0;1.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+10315;C10315;user10315@example.org;Oregon;Pro;74;;0;4.0;read_article, track_workout;2.0;0.0;2.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+10316;C10316;user10316@example.org;West Virginia;Enterprise;103;Y;1;0.0;;0.0;0.0;0.0;0.0;3.0;69.19;23.063333333333333;0.0;0.0;1.0;2.0
+10317;C10317;user10317@example.com;Colorado;Basic;30;Y;1;0.0;;0.0;0.0;0.0;0.0;1.0;19.94;19.94;0.0;1.0;0.0;0.0
+10318;C10318;user10318@example.net;Nevada;Basic;28;;0;1.0;share_workout;0.0;1.0;0.0;0.0;2.0;6.78;3.39;0.0;1.0;1.0;0.0
+10319;C10319;user10319@example.net;Colorado;Basic;21;;0;0.0;;0.0;0.0;0.0;0.0;5.0;39.82;7.964;0.0;3.0;1.0;1.0
+10320;C10320;user10320@example.com;Rhode Island;Basic;10;Y;1;0.0;;0.0;0.0;0.0;0.0;1.0;24.92;24.92;0.0;0.0;1.0;0.0
+10321;C10321;user10321@example.net;Arkansas;Enterprise;92;;0;1.0;track_workout;0.0;0.0;1.0;0.0;1.0;2.22;2.22;1.0;0.0;0.0;0.0
+10322;C10322;user10322@example.net;Texas;Pro;34;Y;1;0.0;;0.0;0.0;0.0;0.0;8.0;117.12;14.64;0.0;3.0;3.0;2.0
+10323;C10323;user10323@example.com;Wyoming;Basic;18;;0;1.0;read_article;1.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+10324;C10324;user10324@example.com;Utah;Enterprise;93;Y;1;0.0;;0.0;0.0;0.0;0.0;2.0;45.019999999999996;22.509999999999998;1.0;0.0;1.0;0.0
+10325;C10325;user10325@example.com;Florida;Free;0;Y;1;1.0;share_workout;0.0;1.0;0.0;0.0;3.0;45.67;15.223333333333334;0.0;1.0;1.0;1.0
+10326;C10326;user10326@example.net;Kentucky;Basic;17;;0;3.0;read_article, track_workout;2.0;0.0;1.0;0.0;6.0;53.33;8.888333333333334;3.0;1.0;0.0;2.0
+10327;C10327;user10327@example.com;Montana;Free;0;Y;1;0.0;;0.0;0.0;0.0;0.0;4.0;89.85;22.4625;1.0;2.0;0.0;1.0
+10328;C10328;user10328@example.net;Idaho;Pro;45;;0;2.0;share_workout, watch_video;0.0;1.0;0.0;1.0;1.0;4.6;4.6;0.0;0.0;0.0;1.0
+10329;C10329;user10329@example.com;Nebraska;Pro;32;Y;1;0.0;;0.0;0.0;0.0;0.0;2.0;33.010000000000005;16.505000000000003;0.0;0.0;1.0;1.0
+10330;C10330;user10330@example.net;Oklahoma;Enterprise;82;;0;2.0;share_workout, track_workout;0.0;1.0;1.0;0.0;1.0;7.09;7.09;0.0;0.0;0.0;1.0
+10331;C10331;user10331@example.com;Alaska;Basic;18;;0;2.0;read_article, share_workout;1.0;1.0;0.0;0.0;2.0;13.97;6.985;0.0;1.0;0.0;1.0
+10332;C10332;user10332@example.org;Nevada;Free;0;;0;0.0;;0.0;0.0;0.0;0.0;5.0;22.02;4.404;1.0;1.0;1.0;2.0
+10333;C10333;user10333@example.org;Florida;Pro;59;;0;1.0;read_article;1.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+10334;C10334;user10334@example.com;Delaware;Basic;26;Y;1;0.0;;0.0;0.0;0.0;0.0;2.0;34.519999999999996;17.259999999999998;2.0;0.0;0.0;0.0
+10335;C10335;user10335@example.com;Alabama;Free;0;Y;1;0.0;;0.0;0.0;0.0;0.0;2.0;33.63;16.815;2.0;0.0;0.0;0.0
+10336;C10336;user10336@example.org;Tennessee;Free;0;;0;2.0;read_article;2.0;0.0;0.0;0.0;1.0;8.16;8.16;0.0;0.0;1.0;0.0
+10337;C10337;user10337@example.com;Michigan;Free;0;Y;1;0.0;;0.0;0.0;0.0;0.0;2.0;33.56;16.78;0.0;1.0;0.0;1.0
+10338;C10338;user10338@example.net;Alaska;Free;0;;0;2.0;watch_video;0.0;0.0;0.0;2.0;6.0;42.64;7.1066666666666665;0.0;1.0;3.0;2.0
+10339;C10339;user10339@example.com;North Carolina;Pro;34;;0;0.0;;0.0;0.0;0.0;0.0;5.0;24.75;4.95;0.0;3.0;0.0;2.0
+10340;C10340;user10340@example.net;Utah;Basic;29;;0;3.0;share_workout, track_workout;0.0;2.0;1.0;0.0;2.0;25.450000000000003;12.725000000000001;1.0;0.0;0.0;1.0
+10341;C10341;user10341@example.org;Ohio;Enterprise;97;;0;1.0;read_article;1.0;0.0;0.0;0.0;1.0;9.41;9.41;0.0;0.0;0.0;1.0
+10342;C10342;user10342@example.com;Texas;Pro;43;;0;0.0;;0.0;0.0;0.0;0.0;4.0;13.780000000000001;3.4450000000000003;1.0;2.0;0.0;1.0
+10343;C10343;user10343@example.net;Colorado;Basic;20;;0;2.0;read_article, share_workout;1.0;1.0;0.0;0.0;3.0;15.370000000000001;5.123333333333334;1.0;0.0;0.0;2.0
+10344;C10344;user10344@example.org;Georgia;Enterprise;141;;0;2.0;watch_video;0.0;0.0;0.0;2.0;4.0;47.02;11.755;1.0;1.0;0.0;2.0
+10345;C10345;user10345@example.net;Florida;Free;0;Y;1;0.0;;0.0;0.0;0.0;0.0;3.0;65.33;21.776666666666667;0.0;1.0;0.0;2.0
+10346;C10346;user10346@example.net;Ohio;Pro;35;;0;3.0;read_article, track_workout, watch_video;1.0;0.0;1.0;1.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+10347;C10347;user10347@example.com;Colorado;Pro;37;;0;0.0;;0.0;0.0;0.0;0.0;1.0;7.42;7.42;1.0;0.0;0.0;0.0
+10348;C10348;user10348@example.com;South Carolina;Basic;13;;0;2.0;read_article;2.0;0.0;0.0;0.0;4.0;35.08;8.77;1.0;1.0;1.0;1.0
+10349;C10349;user10349@example.org;Delaware;Free;0;;0;2.0;read_article, track_workout;1.0;0.0;1.0;0.0;3.0;9.08;3.026666666666667;1.0;1.0;1.0;0.0
+10350;C10350;user10350@example.com;South Carolina;Enterprise;97;Y;1;1.0;read_article;1.0;0.0;0.0;0.0;4.0;70.97;17.7425;2.0;2.0;0.0;0.0
+10351;C10351;user10351@example.org;Massachusetts;Enterprise;104;;0;2.0;read_article, track_workout;1.0;0.0;1.0;0.0;2.0;6.83;3.415;0.0;1.0;1.0;0.0
+10352;C10352;user10352@example.net;Florida;Pro;39;;0;1.0;read_article;1.0;0.0;0.0;0.0;2.0;10.84;5.42;1.0;1.0;0.0;0.0
+10353;C10353;user10353@example.net;Arizona;Basic;18;;0;2.0;share_workout;0.0;2.0;0.0;0.0;3.0;33.59;11.196666666666667;1.0;0.0;1.0;1.0
+10354;C10354;user10354@example.org;Virginia;Free;0;;0;0.0;;0.0;0.0;0.0;0.0;4.0;28.45;7.1125;0.0;1.0;2.0;1.0
+10355;C10355;user10355@example.com;Minnesota;Free;0;Y;1;0.0;;0.0;0.0;0.0;0.0;2.0;34.91;17.455;0.0;0.0;2.0;0.0
+10356;C10356;user10356@example.org;Massachusetts;Basic;11;;0;1.0;share_workout;0.0;1.0;0.0;0.0;4.0;19.7;4.925;3.0;0.0;0.0;1.0
+10357;C10357;user10357@example.net;New Jersey;Pro;49;;0;0.0;;0.0;0.0;0.0;0.0;1.0;10.33;10.33;1.0;0.0;0.0;0.0
+10358;C10358;user10358@example.org;Washington;Enterprise;124;;0;2.0;share_workout, track_workout;0.0;1.0;1.0;0.0;2.0;15.66;7.83;0.0;1.0;0.0;1.0
+10359;C10359;user10359@example.org;Arizona;Free;0;;0;0.0;;0.0;0.0;0.0;0.0;2.0;13.55;6.775;1.0;1.0;0.0;0.0
+10360;C10360;user10360@example.net;Delaware;Basic;19;;0;3.0;share_workout, track_workout, watch_video;0.0;1.0;1.0;1.0;1.0;5.84;5.84;0.0;0.0;1.0;0.0
+10361;C10361;user10361@example.com;Hawaii;Free;0;;0;0.0;;0.0;0.0;0.0;0.0;3.0;14.26;4.753333333333333;1.0;0.0;1.0;1.0
+10362;C10362;user10362@example.org;Delaware;Enterprise;119;;0;1.0;read_article;1.0;0.0;0.0;0.0;2.0;15.65;7.825;1.0;0.0;1.0;0.0
+10363;C10363;user10363@example.com;Florida;Basic;13;Y;1;1.0;read_article;1.0;0.0;0.0;0.0;6.0;121.9;20.316666666666666;1.0;1.0;1.0;3.0
+10364;C10364;user10364@example.com;Washington;Enterprise;85;;0;1.0;watch_video;0.0;0.0;0.0;1.0;4.0;18.91;4.7275;1.0;0.0;2.0;1.0
+10365;C10365;user10365@example.org;Illinois;Basic;15;;0;2.0;share_workout, watch_video;0.0;1.0;0.0;1.0;1.0;2.06;2.06;1.0;0.0;0.0;0.0
+10366;C10366;user10366@example.org;Idaho;Basic;25;;0;1.0;watch_video;0.0;0.0;0.0;1.0;3.0;11.059999999999999;3.686666666666666;0.0;2.0;0.0;1.0
+10367;C10367;user10367@example.com;Colorado;Basic;20;;0;1.0;read_article;1.0;0.0;0.0;0.0;1.0;8.29;8.29;1.0;0.0;0.0;0.0
+10368;C10368;user10368@example.net;New Mexico;Basic;24;;0;2.0;share_workout, watch_video;0.0;1.0;0.0;1.0;3.0;26.65;8.883333333333333;2.0;1.0;0.0;0.0
+10369;C10369;user10369@example.com;West Virginia;Basic;20;;0;0.0;;0.0;0.0;0.0;0.0;2.0;16.799999999999997;8.399999999999999;0.0;0.0;0.0;2.0
+10370;C10370;user10370@example.com;Florida;Free;0;Y;1;1.0;watch_video;0.0;0.0;0.0;1.0;2.0;43.23;21.615;0.0;1.0;1.0;0.0
+10371;C10371;user10371@example.org;Texas;Enterprise;87;;0;2.0;track_workout, watch_video;0.0;0.0;1.0;1.0;4.0;22.6;5.65;1.0;1.0;0.0;2.0
+10372;C10372;user10372@example.com;Vermont;Pro;80;;0;0.0;;0.0;0.0;0.0;0.0;1.0;2.9;2.9;0.0;1.0;0.0;0.0
+10373;C10373;user10373@example.net;Pennsylvania;Basic;13;Y;1;0.0;;0.0;0.0;0.0;0.0;2.0;26.32;13.16;1.0;0.0;1.0;0.0
+10374;C10374;user10374@example.org;Pennsylvania;Free;0;Y;1;0.0;;0.0;0.0;0.0;0.0;3.0;35.68;11.893333333333333;0.0;3.0;0.0;0.0
+10375;C10375;user10375@example.net;Arkansas;Basic;29;Y;1;0.0;;0.0;0.0;0.0;0.0;1.0;11.99;11.99;0.0;0.0;1.0;0.0
+10376;C10376;user10376@example.org;Alaska;Basic;16;Y;1;0.0;;0.0;0.0;0.0;0.0;1.0;25.05;25.05;0.0;0.0;0.0;1.0
+10377;C10377;user10377@example.net;West Virginia;Enterprise;82;Y;1;0.0;;0.0;0.0;0.0;0.0;1.0;11.07;11.07;1.0;0.0;0.0;0.0
+10378;C10378;user10378@example.net;Illinois;Basic;26;;0;3.0;read_article, track_workout, watch_video;1.0;0.0;1.0;1.0;4.0;31.41;7.8525;0.0;1.0;2.0;1.0
+10379;C10379;user10379@example.net;Vermont;Basic;21;Y;1;0.0;;0.0;0.0;0.0;0.0;2.0;41.87;20.935;0.0;0.0;1.0;1.0
+10380;C10380;user10380@example.com;South Dakota;Enterprise;120;;0;1.0;read_article;1.0;0.0;0.0;0.0;6.0;50.56;8.426666666666668;1.0;0.0;1.0;4.0
+10381;C10381;user10381@example.org;New Hampshire;Free;0;;0;0.0;;0.0;0.0;0.0;0.0;1.0;8.6;8.6;0.0;1.0;0.0;0.0
+10382;C10382;user10382@example.com;Utah;Free;0;Y;1;2.0;read_article, watch_video;1.0;0.0;0.0;1.0;1.0;30.41;30.41;1.0;0.0;0.0;0.0
+10383;C10383;user10383@example.com;Pennsylvania;Free;0;;0;1.0;track_workout;0.0;0.0;1.0;0.0;1.0;0.99;0.99;1.0;0.0;0.0;0.0
+10384;C10384;user10384@example.org;New Hampshire;Basic;14;;0;1.0;share_workout;0.0;1.0;0.0;0.0;1.0;2.11;2.11;0.0;1.0;0.0;0.0
+10385;C10385;user10385@example.org;Mississippi;Pro;40;Y;1;0.0;;0.0;0.0;0.0;0.0;4.0;53.06;13.265;2.0;2.0;0.0;0.0
+10386;C10386;user10386@example.net;New York;Pro;49;;0;2.0;read_article, watch_video;1.0;0.0;0.0;1.0;3.0;14.09;4.696666666666666;1.0;0.0;1.0;1.0
+10387;C10387;user10387@example.org;Wisconsin;Basic;28;;0;1.0;watch_video;0.0;0.0;0.0;1.0;2.0;15.75;7.875;0.0;0.0;1.0;1.0
+10388;C10388;user10388@example.net;Connecticut;Basic;23;;0;3.0;read_article, share_workout;2.0;1.0;0.0;0.0;2.0;10.18;5.09;0.0;0.0;2.0;0.0
+10389;C10389;user10389@example.com;Maine;Basic;11;;0;1.0;share_workout;0.0;1.0;0.0;0.0;2.0;8.08;4.04;1.0;1.0;0.0;0.0
+10390;C10390;user10390@example.org;New Mexico;Pro;33;;0;0.0;;0.0;0.0;0.0;0.0;3.0;18.41;6.136666666666667;1.0;2.0;0.0;0.0
+10391;C10391;user10391@example.org;Florida;Basic;20;;0;4.0;read_article, share_workout, track_workout, watch_video;1.0;1.0;1.0;1.0;1.0;6.06;6.06;0.0;1.0;0.0;0.0
+10392;C10392;user10392@example.org;Arizona;Pro;62;;0;2.0;read_article;2.0;0.0;0.0;0.0;2.0;15.93;7.965;0.0;1.0;1.0;0.0
+10393;C10393;user10393@example.net;New Mexico;Free;0;;0;3.0;read_article, share_workout;2.0;1.0;0.0;0.0;3.0;23.91;7.97;1.0;1.0;1.0;0.0
+10394;C10394;user10394@example.com;Louisiana;Free;0;Y;1;1.0;read_article;1.0;0.0;0.0;0.0;3.0;57.52;19.173333333333336;1.0;1.0;1.0;0.0
+10395;C10395;user10395@example.org;Arizona;Free;0;;0;2.0;read_article, share_workout;1.0;1.0;0.0;0.0;3.0;12.15;4.05;0.0;0.0;2.0;1.0
+10396;C10396;user10396@example.net;Vermont;Free;0;;0;2.0;share_workout;0.0;2.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+10397;C10397;user10397@example.net;Vermont;Free;0;Y;1;0.0;;0.0;0.0;0.0;0.0;5.0;93.61;18.722;1.0;2.0;0.0;2.0
+10398;C10398;user10398@example.net;Alabama;Enterprise;81;;0;0.0;;0.0;0.0;0.0;0.0;2.0;7.27;3.635;0.0;1.0;0.0;1.0
+10399;C10399;user10399@example.net;California;Free;0;;0;0.0;;0.0;0.0;0.0;0.0;1.0;4.46;4.46;0.0;0.0;1.0;0.0
